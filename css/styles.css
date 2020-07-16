@@ -4985,6 +4985,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   text-align: center;
   white-space: nowrap;
   background-color: #bd5d38;
+  /* background-color: #ffffff; */
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5066,6 +5067,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   z-index: 2;
   color: #fff;
   background-color: #bd5d38;
+  /* background-color: #ffffff; */
   border-color: #bd5d38;
 }
 .list-group-item + .list-group-item {
@@ -6097,7 +6099,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  /* background-color: #bd5d38 !important; */
+  background-color: #8977ad !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6293,7 +6296,8 @@ button.bg-dark:focus {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  /* border-radius: 50% !important; */
+  width: 57%;
 }
 
 .rounded-pill {
@@ -9800,6 +9804,7 @@ button.bg-dark:focus {
 
 .text-primary {
   color: #bd5d38 !important;
+  /* color: #ffffff !important; */
   
 }
 
@@ -10044,6 +10049,7 @@ p.lead {
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
+  /* outline-color: #000000; */
 }
 
 @media (min-width: 992px) {
@@ -10063,9 +10069,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 40rem;
+    max-height: 17rem;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -10118,7 +10123,7 @@ section.resume-section {
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
-  width: 100%;
+  width: 80%;
 }
 
 @media (min-width: 768px) {
